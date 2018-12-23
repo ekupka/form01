@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(35, 71, 228);
+}
+
+#container{
+    margin: 0 auto;
+    padding: 25px;
+    width: 900px;
+    background-color: sandybrown;    
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+p1{
+    margin: 0;
+    padding: 0; 
+    max-width: 600px;
+    color: green;
+    text-align: center;
+    font-size: 22px;
+}
+#thebutton{
+    margin: 10px;
+    color: gold;
+    background-color: crimson;
+    min-width: 100px;
+    min-height: 50px;
+}
+
+#thebutton:hover{
+    background-color: brown;
+    color: silver;
+    transition: ease-out;
+    transition-duration: 250ms;
+}
+
+#abre_e_fecha{
+    width: 800px;
+    background-color: yellow;
+    color: purple;
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+form{
+    width: 650px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    overflow: hidden;
+    max-height: px;
+}
+
+.line{
+    margin: 5px 0;
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+    
+}
+
+.field_description{
+    padding-right: 10px;
+    text-align:right;
+    background-color: aliceblue;
+    }
+
+.field{
+    background-color: cornflowerblue;
+    flex: 1;
+    max-width: 500px;
+}
+#message{
+    height: 180px;
+}
+
+#mailbutton{
+   margin: 0 auto;
+}
+
+#mailline{
+    display: none;
+}
+
+.send_button{
+    size: 80px 80px;
+    margin: 10px 0;
+}
