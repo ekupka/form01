@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Design is Everything</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <p1>Então tem que escrever um texto para preencher uma frase? Facinho Muleque, só meter umas coisas aleatórias e tudo certo!</p1>
+            <button id="thebutton" type="button" onclick="abre()">Saiba Mais</button>
+            <div id="abre_e_fecha">
+                <form>
+                    <div class="line">
+                        <label class="field_description" for="sendername">Seu Nome:</label>
+                        <input class="field" type="text" id="sendername">
+                    </div>
+                    <div class="line">
+                        <label class="field_description" for="field_assunto">Assunto:</label>
+                        <input class="field" type="text" id="field_assunto">
+                    </div>
+                    <div class="line">
+                            <label class="field_description" for="message">Mensagem:</label>
+                            <input class="field" type="text" id="message">
+                    </div>
+                    <div class="line">
+                        <button id="mailbutton" type="button" onclick="showmail()">Adicionar E-mail para resposta</button>
+                    </div>
+                    <div class="line" id="mailline">
+                            <label class="field_description" for="mail">Seu e-mail:</label>
+                            <input class="field" type="text" id="mail">
+                    </div>
+                <button class="send_button" type="button">Em Via</button>
+                </form>
+            <div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
